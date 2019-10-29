@@ -1,0 +1,5 @@
+node_modules/
+src/
+
+# We use npm lock
+yarn.lock

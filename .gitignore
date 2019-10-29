@@ -1,0 +1,7 @@
+node_modules/
+lib/
+
+# We use npm lock
+yarn.lock
+
+*.swp

@@ -1,0 +1,25 @@
+{
+  "name": "@mana-soft/serverless-response",
+  "version": "1.0.0",
+  "description": "Wrapper for API Gateway responses",
+  "main": "index.js",
+  "author": "mana-soft",
+  "repository": "git@github.com:mana-soft/serverless-response.git",
+  "license": "MIT",
+  "private": false,
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "scripts": {
+    "build": "rm -rf lib/* && babel src --out-dir lib --copy-files",
+    "test": "echo 'No tests implemented'"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.556.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3"
+  }
+}
