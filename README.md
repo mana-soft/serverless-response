@@ -20,14 +20,13 @@ response.setContext(callback, context);
 
 ---
 
-## Configure (once for all @mana-soft packages)
-* Go on https://github.com/settings/tokens
-* Generate a new token having at least roles `repo` and `read:packages`
-* Copy the given token
-* In your user home, create a file `.npmrc` with the content below
+## Configure
+(once for all @mana-soft packages)
+* Create an npm account
+* Ask for an admin to add your account to the oraganization
+* Log in your CLI
 ```
-//npm.pkg.github.com/:_authToken=PERSONAL_ACCESS_TOKEN
-@mana-soft:registry=https://npm.pkg.github.com/
+$ npm login
 ```
 
 ## Create
