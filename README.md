@@ -60,6 +60,10 @@ If you want to locally test your code, you can do it without deploying a new ver
 # npm ln
 ```
 It will create a symbolic link from `/usr/local/lib/node_modules/@mana-soft/PACKAGE_NAME` to your package
+* (Optional) Watch your files to auto rebuild at save
+```
+$ npm run watch
+```
 * Go to the project which will use your package
 * Install the dependencies
 ```
