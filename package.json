@@ -8,7 +8,7 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "prepublish": "npm run build",
+    "prepublishOnly": "npm run build",
     "prebuild": "npm install",
     "build": "rm -rf lib/* && babel src --out-dir lib --copy-files",
     "watch": "rm -rf lib/* && babel src -w --out-dir lib --copy-files",
